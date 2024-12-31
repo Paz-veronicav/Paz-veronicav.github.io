@@ -1,0 +1,178 @@
+<!DOCTYPE html>     <!--Indica que el documento es HTML5-->
+<html lang="es">    <!--especifica que el idioma principal es el español-->
+
+<head>
+    <meta charset="UTF-8">     <!--Define la codificación de caracteres como UTF-8 para soportar caracteres especiales-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--Adapta el diseño para dispositivos móviles ajustando el ancho al tamaño de la pantalla-->
+    <title>Portafolio - Informático</title>   <!--Define el título de la página, mostrado en la pestaña del navegador-->
+    <link rel="stylesheet" href="estilo.css">  <!--Vincula un archivo CSS para los estilos personalizados-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"     
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>      <!--Hace que se vea el contenido visible de la página-->
+    <header>   <!--Define el encabezado del sitio, incluye la barra de navegación-->
+        <nav class="navbar">
+            <div class="logo">[Paz Veas]</div>
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">   <!--Sección principal de bienvenida y la introduccion -->
+        <div class="hero-content">
+            <h1>¡Hola! Soy [Paz Veas]</h1>
+            <p>Desarrollador Informático </p>
+            <a href="#sobre-mi" class="btn">Conóceme más</a>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="about">  <!--Contiene información personal y habilidades destacadas-->
+        <div class="about-container">
+            <img src="miimagen.jpg" alt="Foto de [Paz Veas]" class="about-image">
+            <div class="about-text">
+                <h2>Sobre mí</h2>
+                <p>Actualmente cursando la carrera de computación e Informática en el CFT de la Pontifcia de la
+                    Universidad Católica de Valparaíso, Me desenvuelvo en Inglés nivel medio.
+                    Tengo conocimiento programas computacionales como Excel Nivel medio, tengo la capacidad de trabajar
+                    de forma individual y como parte de un equipo. Me especializo en [Ciberseguridad, "desarrollo
+                    frontend", "bases de datos", etc.].
+                    Poseo 11 años de experiencia como supervisora en el área de ventas y retail.
+                    En mi desempeño como supervisora de ventas me destaque obteniendo el premio a la iniciativa
+                    aportando de forma exitosa en el área.
+
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="formacion" class="education">   <!--Describe la formación académica y profesional-->
+        <div class="education-container card">
+            <h2>Formación Académica</h2>
+            <div class="education-item">
+                <h3>Computación e informática con especialidad en ciberseguridad en el CFT de la Pontificia universidad
+                    católica de Valparaíso (2024)</h3>
+                <p>Dominio en tecnologías web modernas como HTML, CSS, JavaScript y frameworks.</p>
+                <p>EDUCACACIÓN MEDIA HUMANISTICO</p>
+                <p>4° Medio (Ed. media) para adultos colegio PAIDOS.</p>
+            </div>
+        </div>
+        <div class="skills-container card">  <!--Sección dedicada a habilidades, competencias y experiencias-->
+            <h2>Experiencia laboral</h2>
+            <div class="skill">
+                <h3>(2008 - 2019) Supervisora de marcas en el departamento de ventas de retail acargo del staff de
+                    promotoras</h3>
+                <h3>Insentivar ventas, realizar contrataciones, finiquitos, comprobar el desmpeño de las vendedoras en
+                    sus putos de ventas</h3>
+                <h3>(2007) Anfitriona en O'Higgins hotel, encargada de dar la bienvenida a los clientes </h3>
+                <H3>(2006) Recepcionista en O'Higgins hotel, recibir e ingresar al sistema a los huéspedes del hotel
+                </H3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="skills-container card">
+            <h2>Competencias</h2>
+            <div class="skill">
+                <h3>(2007) Curso de Inglés nivel básico - medio impartido poe el área de capacitación de la universidad
+                    Santo Tomás (120) horas</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>(2019) Participación en el taller de Plan de negocios - canvas y elevator Pitch impartido por
+                    Sercotec (25) horas</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>(2018) Participación en taller de Neuroventas impartido por Sercotec por (16) horas </h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Dominio de Microsoft office (Excel, Word, Power Point)</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Licencia de conducir clase B</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+        </div>
+        <div id="Hobby" class="skills card">
+            <h2>Hobby</h2>
+            <div class="skills-container">
+            </div>
+            <!-- Agrega más competencias según sea necesario -->
+            <div class="skill">
+                <h3>Mis hobbies son salir con mis amigas (os), la fografía, ir a la playa, disfrutar de la naturaleza,
+                    escuchar musica</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+        </div>
+    </section>
+    <section id="proyectos" class="projects">   <!--Muestra los proyectos desarrollados con imágenes y descripciones-->
+        <h2>Proyectos</h2>
+        <div class="project-grid">
+            <div class="project">
+                <img src="imag2.jpg" alt="Imagen del Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>Desarrollé frontend para este sitio web (Portafolio), usando HTML, CSS, JAVA SCRIPT</p>
+                <a href="#" target="_blank">Ver más</a>
+            </div>
+            <div class="project">
+                <img src="imag3.jpg" alt="Imagen del Proyecto 2">
+                <h3>Proyecto 2</h3>
+                <p>Creación de Formulario de contacto de forma simple para el usuario.</p>
+                <a href="#" target="_blank">Ver más</a>
+            </div>
+            <!-- Agregar más proyectos si es necesario -->
+        </div>
+    </section>
+    <section id="contacto" class="contact">   <!--Sección para el formulario de contacto y datos de contacto personales-->
+        <h2>Contacto</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:pazveronicav@gmail.com">pazveronicav@gmail.com</a></p>
+                <p><strong>Teléfono:</strong> <a href="tel:56997383534">+56 9 97383534</a></p>
+                <p><strong>Redes sociales:</strong></p>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 [Paz Veas]. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>    <!--Vincula un archivo JavaScript para funcionalidades dinámicas.-->
+</body>
+
+</html>
